@@ -1,0 +1,9 @@
+[
+    { "id": 1, "nombre": "Dulce de leche", "precio": 1000 },
+    { "id": 2, "nombre": "Alfajor", "precio": 500 },
+    { "id": 3, "nombre": "Chupetín", "precio": 150 },
+    { "id": 4, "nombre": "Turrón", "precio": 100 },
+    { "id": 5, "nombre": "Bon o Bon", "precio": 300 },
+    { "id": 6, "nombre": "Caramelos Ácidos", "precio": 60 },
+    { "id": 7, "nombre": "Rocklets", "precio": 600 }
+]

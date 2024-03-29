@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Dulces</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Bienvenido a la Tienda de Dulces</h1>
+        <button id="iniciar-sesion" class="btn btn-primary">Iniciar sesión</button>
+        <button id="registrarse" class="btn btn-secondary">Registrarse</button>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Nuestros Productos</h2>
+                <ul id="lista-productos" class="list-group"></ul>
+            </div>
+            <div class="col-md-6">
+                <h2>Tu Carrito</h2>
+                <ul id="lista-carrito" class="list-group"></ul>
+                <button id="finalizar-compra" class="btn btn-primary mt-4">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
